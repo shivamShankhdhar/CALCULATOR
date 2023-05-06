@@ -1,0 +1,66 @@
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	background-color: #F7C04A;
+}
+.container{
+	background-color: #212A3E;
+	height: 450px;
+	width: 350px;
+	margin-left: 450px;
+	margin-top: 50px;
+	border-radius: 5px;
+}
+.container .display input[type="text"]{
+	height: 50px;
+	width: 310px;
+	margin-left: 10px;
+	border: none;
+	margin-top: 10px;
+	border-radius: 5px;
+	text-align: right;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+	color: #F6F1F1;
+	background-color: #9BA4B5;
+}
+.container .display input[type="text"]:focus{
+	outline: none;
+
+}
+.container .display input[type="text"]::placeholder{
+	color: #F6F1F1;
+
+}
+.container .buttons{
+	height: 360px;
+	width: 380px;
+/*	background-color: #000;*/
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.container .row{
+	width: 360px;
+	margin-left: 20px;
+}
+.container .row button{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin:5px ;
+	background-color: 94AF9F;
+	border:none;
+	cursor: pointer;
+	font-size: 20px;
+}
+.container .row button.equal{
+	background-color: #19A7CE;
+	color: #ffffff;
+}
+.container .row button.operator{
+	background-color: #94AF9F;
+	color: #ffffff;
+}
